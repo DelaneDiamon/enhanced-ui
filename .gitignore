@@ -1,0 +1,4 @@
+﻿# build artifacts
+pack_ssl/
+*.zip
+*.pak
