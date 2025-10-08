@@ -135,10 +135,22 @@ This document summarizes player-facing abilities and equipment exposing cooldown
 - Controller type: `AbilityControllerDescAimedThrow`
 - Events: n/a (inspect equipment panel logic)
 
+## HUD Integration Notes
+
+### Equipment Panel
+- `ui_equipment_panel_view.sso` instantiates `UiEquipmentSlot`/`UiEquipmentSubSlot` widgets, each bundling icon switchers, a `UiEquipmentCounter`, and pulse/zero-blink states tied to ability charge data.
+- `ui_equipment_panel_data_provider.sso` simply enumerates the ability/equipment UIDs for each slot while inheriting behaviour from `UiEquipmentPanelDataProviderBase`; the engine supplies charge counts and cooldown readiness without extra scripting.
+- `UiEquipmentSlot` exposes named children (`counter`, `pulse`, `icon`, etc.) that animate based on those provider updates, giving us a proven contract for showing charges and “last use” feedback.
+- The same slot/provider pattern appears in other UI modules (e.g., scoreboard inventory), reinforcing that these contracts are reusable for a separate cooldown strip.
+
+### Ultimate Ability Slot
+- `ui_weapon_panel_view.sso` embeds `UiWeaponPanelAbilitySlot`, which wraps `UiUltimateImage`, `UiUltimateBar`, `UiUltimateCounter`, and `UiUltimateBlink` to show icon, radial fill, numeric value, and ready-state animations.
+- `ui_weapon_panel_data_provider.sso` inherits from `UiWeaponPanelDataProviderBase`; this base feeds energy percentage, ready flags, and icon keys directly into the slot’s named bindings (`abilityIcon`, `abilityBar`, `counter`, `blink`).
+- Because the ultimate slot already consumes the player’s ability resource through these components, we can mirror its structure to tap into the same data stream for any new HUD cooldown widget.
+- Barrier/camouflage-specific events (e.g., `broken`, `IndicateEnding`) can layer on top by listening to ability custom events if we need supplementary visual states.
+
 ## Follow-Up Items
 
-- Verify how equipment charge regeneration is surfaced to the HUD; likely via `UiEquipmentPanel` data providers rather than direct ability controller events.
-
-- Identify the client entry point for querying ability energy (percent vs. charges) for barrier/camouflage/rage.
-
-- Confirm whether we need a blueprint bridge to relay `AbilityTaskSubscribeOnEnergy` output to the UI data model.
+- Decide whether to subclass the existing slot widgets or build lightweight containers that replicate their required fields while keeping layout flexibility for the new cooldown row.
+- Track down where `UiEquipmentPanelDataProviderBase` and `UiWeaponPanelDataProviderBase` pull their data (likely player HUD controllers) so a bespoke data provider can share the same interfaces.
+- Determine if custom ability events (e.g., barrier `broken`, grappling `hook_flight_start`) require explicit routing into the new widget beyond what the base providers offer.
