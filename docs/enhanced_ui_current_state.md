@@ -26,7 +26,7 @@
   - `ssl/ui/fusion/hud/hud_layout/ui_hud_pvp_view.sso`
   - `ssl/ui/fusion/hud/hud_layout/ui_hud_hub_view.sso`
 - Position the container just above the existing weapon/equipment panel, respecting the secure stockpile attachment and safe zone guidelines; author width scaling rules that collapse into two rows if the screen is narrower than 16:9.
-- Build a dedicated widget asset (e.g., `ssl/ui/fusion/hud/ability_timers/ui_player_ability_timers_view.sso`) that instantiates a configurable number of tile children.
+- Build a dedicated widget asset (e.g., `ssl/ui/fusion/hud/ability_timers/ui_player_ability_timers_view.sso`) that instantiates a configurable number of tile children (each tile can reuse `ssl/ui/fusion/hud/ability_timers/ui_ability_timer_tile.sso` created during Phase 1 research).
 - Register the widget in the UI asset storage (`game_mods_source/ssl/ui/systems/asset_managing/ui_asset_storage.sso`) so the HUD can request it through the attachments component.
 
 ## Phase 3 – Ability Tile Component
@@ -65,6 +65,11 @@
 - Execute `./build_enhanced_ui_pak.sh` to regenerate `enhanced_ui.pak`; confirm the archive root is `ssl/`.
 - Update release notes/readme with ability coverage, known gaps, and instructions for mod managers.
 - Tag the repository milestone once QA passes, keeping raw source assets committed for future iterations.
+
+## Immediate Integration Steps
+- Trace `UiEquipmentPanelDataProviderBase`/`UiWeaponPanelDataProviderBase` in the runtime to understand how they surface charges and energy so the new timers can subscribe without duplicating logic.
+- Compose `ui_player_ability_timers_view.sso` to host multiple `ui_ability_timer_tile.sso` instances and expose attachment slots for the HUD layouts.
+- Extend each HUD layout to include the new `ability_timers_attach` point and ensure attachment order plays nicely with `secure_stockpile_attach` and existing weapon panel placements.
 
 ## Follow-Up Ideas
 - Add user settings to toggle individual ability tiles or swap between numeric timers and percent-only mode.

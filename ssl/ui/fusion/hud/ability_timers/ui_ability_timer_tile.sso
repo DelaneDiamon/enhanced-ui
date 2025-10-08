@@ -1,0 +1,42 @@
+width   =   88
+height   =   88
+componentsList   =   {
+   UiDataDrivenComponent   =   {
+   }
+}
+childs   =   {
+   content   =   {
+      width   =   88
+      height   =   88
+      childs   =   {
+         icon   =   {
+            __type   =   "UiUltimateImage"
+         }
+         bar   =   {
+            __type   =   "UiUltimateBar"
+         }
+         counter   =   {
+            pos   =   {
+               y   =   -48
+               __type   =   "Vector3d"
+            }
+            __type   =   "UiUltimateCounter"
+         }
+         blink   =   {
+            __type   =   "UiUltimateBlink"
+         }
+      }
+      __type   =   "UiFusionContainer"
+   }
+}
+animation   =   {
+   type   =   {
+      __type   =   "fus_sequence"
+   }
+   __type   =   "FusionSequenceDesc"
+}
+abilityIcon   =   "content/icon"
+abilityBar   =   "content/bar"
+abilityCounter   =   "content/counter"
+abilityBlink   =   "content/blink"
+__type   =   "UiFusionContainer"

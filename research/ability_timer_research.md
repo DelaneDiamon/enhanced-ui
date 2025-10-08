@@ -148,6 +148,7 @@ This document summarizes player-facing abilities and equipment exposing cooldown
 - `ui_weapon_panel_data_provider.sso` inherits from `UiWeaponPanelDataProviderBase`; this base feeds energy percentage, ready flags, and icon keys directly into the slot’s named bindings (`abilityIcon`, `abilityBar`, `counter`, `blink`).
 - Because the ultimate slot already consumes the player’s ability resource through these components, we can mirror its structure to tap into the same data stream for any new HUD cooldown widget.
 - Barrier/camouflage-specific events (e.g., `broken`, `IndicateEnding`) can layer on top by listening to ability custom events if we need supplementary visual states.
+- The `*DataProviderBase` classes themselves are not defined in the unpacked SSL tree (likely engine-authored); we will rely on their exposed contracts rather than reimplementing resource fetch logic.
 
 ## Follow-Up Items
 
