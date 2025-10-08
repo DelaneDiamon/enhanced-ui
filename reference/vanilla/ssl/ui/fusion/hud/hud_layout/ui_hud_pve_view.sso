@@ -1,0 +1,663 @@
+isAutoGenerate   =   True
+width   =   1920
+height   =   1080
+combinedColorEffect   =   {
+   type   =   "ALPHA"
+   __type   =   "UiColorEffect"
+}
+componentsList   =   {
+   UiAttachmentsComponent   =   {
+      attachPoints   =   {
+         UiHudPlayerHealthView   =   {
+            __value   =   "health_attach"
+         }
+         UiHudHitDirectionView   =   {
+            __value   =   "hit_direction_attach"
+         }
+         UiGameLogView   =   {
+            __value   =   "game_log_attach"
+         }
+         UiBossHealthView   =   {
+            __value   =   "boss_health_attach"
+         }
+         UiHudJetpackOverheatView   =   {
+            __value   =   "health_attach"
+         }
+         UiTutorialView   =   {
+            __value   =   "tutorial_attach"
+         }
+         UiTeamStatusView   =   {
+            __value   =   "team_status_attach"
+         }
+         UiBattleHintsView   =   {
+            __value   =   "tips_attach"
+         }
+         UiWeaponPanelView   =   {
+            __value   =   "weapon_panel_attach"
+         }
+         UiHudCrosshairView   =   {
+            __value   =   "sight_attach"
+         }
+         UiHudGraphookView   =   {
+            __value   =   "sight_attach"
+         }
+         UiHudHitDirectionZoomView   =   {
+            __value   =   "hit_direction_attach"
+         }
+         UiActionHintPanelView   =   {
+            __value   =   "detonation_attach"
+         }
+         UiSubtitleView   =   {
+            __value   =   "subtitles_attach"
+         }
+         UiIntroLocationView   =   {
+            __value   =   "intro_location_attach"
+         }
+         UiCurrentLocationView   =   {
+            __value   =   "current_location_attach"
+         }
+         UiStatusEffectPanelView   =   {
+            __value   =   "status_effect"
+         }
+         UiSocialWheelView   =   {
+            __value   =   "social_wheel_attach"
+         }
+         UiTextChatView   =   {
+            __value   =   "text_chat_attach"
+         }
+         UiVoteKickView   =   {
+            __value   =   "vote_kick_attach"
+         }
+         UiHudTipsView   =   {
+            __value   =   "tips_attach"
+         }
+         UiEquipmentPanelView   =   {
+            __value   =   "equipment_panel_attach"
+         }
+         UiSwapWeaponPanelView   =   {
+            __value   =   "swap_weapon_panel_attach"
+         }
+         UiAudiologPanelView   =   {
+            __value   =   "audiolog_panel_attach"
+         }
+         UiAttentionMessageView   =   {
+            __value   =   "objective_message"
+         }
+         UiHudObjectivePanelView   =   {
+            __value   =   "objective_panel_attach"
+         }
+         UiQteView   =   {
+            __value   =   "qte_attach"
+         }
+         UiVoxPanelView   =   {
+            __value   =   "vox_attach"
+         }
+         UiBadConnectionView   =   {
+            __value   =   "bad_connection"
+         }
+         UiHudInventoryPanelView   =   {
+            __value   =   "inventory_attach"
+         }
+         UiLastStandingView   =   {
+            __value   =   "last_standing_attach"
+         }
+         UiHudChallengeTipView   =   {
+            __value   =   "tips_attach"
+         }
+         UiTeammateBuffBarView   =   {
+            __value   =   "teammate_buff_bar"
+         }
+      }
+   }
+   UiDataDrivenComponent   =   {
+   }
+   UiFadeWithCameraComponent   =   {
+   }
+}
+childs   =   {
+   subtitles_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         anchorMin   =   {
+            x   =   0.5
+            y   =   1
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            y   =   1
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            x   =   -960
+            y   =   -1080
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   1920
+            y   =   1080
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      __type   =   "UiFusionContainer"
+   }
+   jet_overheat_attach_fix_me_or_jetpack_asset   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         anchorMin   =   {
+            x   =   0.5
+            y   =   0.62
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            y   =   0.62
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   sight_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   tips_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         offsetMin   =   {
+            x   =   1300
+            y   =   540
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   objective_message   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         anchorMin   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            x   =   -960
+            y   =   50
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   audiolog_panel_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         anchorMin   =   {
+            x   =   1
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   1
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            x   =   -115
+            y   =   315
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         align   =   {
+            x   =   1
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      visible   =   True
+      __type   =   "UiFusionContainer"
+   }
+   objective_panel_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         anchorMin   =   {
+            x   =   1
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   1
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            x   =   -115
+            y   =   50
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         align   =   {
+            x   =   1
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      __type   =   "UiFusionContainer"
+   }
+   boss_health_attach   =   {
+      layoutSlot   =   {
+         anchorMin   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            y   =   62
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      width   =   200
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   swap_weapon_panel_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         anchorMin   =   {
+            x   =   0.5
+            y   =   1
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            y   =   1
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            y   =   -467
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   -467
+            __type   =   "Vector2d"
+         }
+         horizontalAlign   =   "CENTER"
+         verticalAlign   =   "CENTER"
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   True
+      __type   =   "UiFusionContainer"
+   }
+   weapon_panel_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   team_status_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   hit_direction_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   status_effect   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         anchorMin   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            x   =   0
+            y   =   285
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      __type   =   "UiFusionContainer"
+   }
+   health_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   game_log_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         offsetMin   =   {
+            x   =   96
+            y   =   900
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      __type   =   "UiFusionContainer"
+   }
+   secure_stockpile_icon   =   {
+      layoutSlot   =   {
+         anchorMin   =   {
+            x   =   0.5
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            x   =   0
+            y   =   145
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      width   =   64
+      height   =   64
+      isSizeToContent   =   False
+      textureAsset   =   "textures/ui/weapon_progression/weapon_perk_icons/pve_soldier_restore_equipment_team_perk.asset/pve_soldier_restore_equipment_team_perk.texture.asset"
+      __type   =   "UiElementBitmap"
+   }
+   tutorial_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   detonation_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         offsetMin   =   {
+            x   =   960
+            y   =   740
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      width   =   300
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   intro_location_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   current_location_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   social_wheel_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   text_chat_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         offsetMin   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      pos   =   {
+         x   =   96
+         y   =   459
+         __type   =   "Vector3d"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   vote_kick_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         offsetMin   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      pos   =   {
+         x   =   100
+         y   =   400
+         __type   =   "Vector3d"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   equipment_panel_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   False
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   inventory_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         offsetMin   =   {
+            x   =   1708
+            y   =   753
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      pos   =   {
+         __type   =   "Vector3d"
+      }
+      __type   =   "UiFusionContainer"
+   }
+   qte_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         anchorMin   =   {
+            x   =   0.5
+            y   =   0.5
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            y   =   0.5
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            y   =   354
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      scale   =   {
+         x   =   150
+         y   =   150
+         __type   =   "Vector2d"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   vox_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         anchorMin   =   {
+            x   =   0.5
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            x   =   0
+            y   =   54
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         align   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      __type   =   "UiFusionContainer"
+   }
+   bad_connection   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         offsetMin   =   {
+            x   =   1848
+            y   =   20
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      __type   =   "UiFusionContainer"
+   }
+   last_standing_attach   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         anchorMin   =   {
+            x   =   0.5
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            y   =   218
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      __type   =   "UiFusionContainer"
+   }
+   teammate_buff_bar   =   {
+      layoutSlot   =   {
+         isSizeToContent   =   True
+         anchorMin   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            y   =   790
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      __type   =   "UiFusionContainer"
+   }
+}
+animation   =   {
+   type   =   {
+      workRangeStart   =   0
+      workRangeEnd   =   200
+      __type   =   "xc_sequence"
+   }
+   __type   =   "FusionSequenceDesc"
+}
+guidelines   =   [
+   {
+      value   =   72
+   },
+   {
+      isVertical   =   True
+      value   =   509.3256
+   },
+   {
+      isVertical   =   True
+      value   =   960
+   },
+   {
+   },
+   {
+      value   =   195
+   }
+]
+__type   =   "UiCanvas"

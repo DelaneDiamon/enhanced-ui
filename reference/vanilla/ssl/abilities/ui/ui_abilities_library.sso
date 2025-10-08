@@ -1,0 +1,1309 @@
+equipmentData   =   {
+   equipment_frag_grenade   =   {
+      usualName   =   "UI_ABILITY_FRAG_GRENADE_NAME"
+      description   =   "UI_ABILITY_FRAG_GRENADE_DESC"
+      pickupName   =   "UI_ABILITY_FRAG_GRENADE_PICKUP"
+      lootName   =   "UI_ABILITY_FRAG_GRENADE_LOOT"
+      iconUid   =   "frag_grenade"
+      usualNameChaos   =   "UI_ABILITY_FRAG_GRENADE_NAME"
+      descriptionChaos   =   "UI_ABILITY_FRAG_GRENADE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_FRAG_GRENADE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_FRAG_GRENADE_LOOT"
+      customizationDescription   =   "UI_ABILITY_FRAG_GRENADE_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "EQUIPMENT"
+      power   =   5
+      area   =   4
+      __type   =   "EquipmentUiData"
+   }
+   equipment_shock_grenade   =   {
+      usualName   =   "UI_ABILITY_SHOCK_GRENADE_NAME"
+      description   =   "UI_ABILITY_SHOCK_GRENADE_DESC"
+      pickupName   =   "UI_ABILITY_SHOCK_GRENADE_PICKUP"
+      lootName   =   "UI_ABILITY_SHOCK_GRENADE_LOOT"
+      iconUid   =   "shock_grenade"
+      usualNameChaos   =   "UI_ABILITY_SHOCK_GRENADE_NAME"
+      descriptionChaos   =   "UI_ABILITY_SHOCK_GRENADE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_SHOCK_GRENADE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_SHOCK_GRENADE_LOOT"
+      customizationDescription   =   "UI_ABILITY_SHOCK_GRENADE_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "EQUIPMENT"
+      power   =   3
+      area   =   5
+      __type   =   "EquipmentUiData"
+   }
+   equipment_krak_grenade   =   {
+      usualName   =   "UI_ABILITY_KRAK_GRENADE_NAME"
+      description   =   "UI_ABILITY_KRAK_GRENADE_DESC"
+      pickupName   =   "UI_ABILITY_KRAK_GRENADE_PICKUP"
+      lootName   =   "UI_ABILITY_KRAK_GRENADE_LOOT"
+      iconUid   =   "krak_grenade"
+      usualNameChaos   =   "UI_ABILITY_KRAK_GRENADE_NAME"
+      descriptionChaos   =   "UI_ABILITY_KRAK_GRENADE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_KRAK_GRENADE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_KRAK_GRENADE_LOOT"
+      customizationDescription   =   "UI_ABILITY_KRAK_GRENADE_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "EQUIPMENT"
+      power   =   7
+      area   =   2
+      __type   =   "EquipmentUiData"
+   }
+   equipment_healing_injector   =   {
+      usualName   =   "UI_ABILITY_HEALING_INJECTOR_NAME"
+      description   =   "UI_ABILITY_HEALING_INJECTOR_DESC"
+      pickupName   =   "UI_ABILITY_HEALING_INJECTOR_PICKUP"
+      lootName   =   "UI_ABILITY_HEALING_INJECTOR_LOOT"
+      iconUid   =   "healing_injector"
+      usualNameChaos   =   "UI_ABILITY_HEALING_INJECTOR_NAME"
+      descriptionChaos   =   "UI_ABILITY_HEALING_INJECTOR_DESC"
+      pickupNameChaos   =   "UI_ABILITY_HEALING_INJECTOR_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_HEALING_INJECTOR_LOOT"
+      customizationDescription   =   "UI_ABILITY_HEALING_INJECTOR_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "EQUIPMENT"
+      __type   =   "EquipmentUiData"
+   }
+   equipment_combat_stimulants   =   {
+      usualName   =   "UI_ABILITY_COMBAT_STIMULANTS_NAME"
+      description   =   "UI_ABILITY_COMBAT_STIMULANTS_DESC"
+      pickupName   =   "UI_ABILITY_COMBAT_STIMULANTS_PICKUP"
+      lootName   =   "UI_ABILITY_COMBAT_STIMULANTS_LOOT"
+      iconUid   =   "combat_stimulant"
+      usualNameChaos   =   "UI_ABILITY_COMBAT_STIMULANTS_NAME"
+      descriptionChaos   =   "UI_ABILITY_COMBAT_STIMULANTS_DESC"
+      pickupNameChaos   =   "UI_ABILITY_COMBAT_STIMULANTS_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_COMBAT_STIMULANTS_LOOT"
+      customizationDescription   =   "UI_ABILITY_COMBAT_STIMULANTS_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "EQUIPMENT"
+      __type   =   "EquipmentUiData"
+   }
+   equipment_melta_charge   =   {
+      usualName   =   "UI_ABILITY_MELTA_CHARGE_NAME"
+      description   =   "UI_ABILITY_MELTA_CHARGE_DESC"
+      pickupName   =   "UI_ABILITY_MELTA_CHARGE_PICKUP"
+      lootName   =   "UI_ABILITY_MELTA_CHARGE_LOOT"
+      iconUid   =   "melta_charge"
+      usualNameChaos   =   "UI_ABILITY_MELTA_CHARGE_NAME"
+      descriptionChaos   =   "UI_ABILITY_MELTA_CHARGE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_MELTA_CHARGE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_MELTA_CHARGE_LOOT"
+      customizationDescription   =   "UI_ABILITY_MELTA_CHARGE_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "EQUIPMENT"
+      power   =   8
+      area   =   8
+      __type   =   "EquipmentUiData"
+   }
+   equipment_buff_crate   =   {
+      usualName   =   "UI_ABILITY_BUFF_CRATE_NAME"
+      description   =   "UI_ABILITY_BUFF_CRATE_DESC"
+      pickupName   =   "UI_ABILITY_BUFF_CRATE_PICKUP"
+      lootName   =   "UI_ABILITY_BUFF_CRATE_LOOT"
+      iconUid   =   "icon"
+      usualNameChaos   =   "UI_ABILITY_BUFF_CRATE_NAME"
+      descriptionChaos   =   "UI_ABILITY_BUFF_CRATE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_BUFF_CRATE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_BUFF_CRATE_LOOT"
+      customizationDescription   =   "UI_ABILITY_BUFF_CRATE_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "EQUIPMENT"
+      __type   =   "AbilityUiData"
+   }
+}
+abilitiesData   =   {
+   ability_banner_ultramar   =   {
+      usualName   =   "UI_ABILITY_BANNER_ULTRAMAR_NAME"
+      description   =   "UI_ABILITY_BANNER_ULTRAMAR_DESC"
+      pickupName   =   "UI_ABILITY_BANNER_ULTRAMAR_PICKUP"
+      lootName   =   "UI_ABILITY_BANNER_ULTRAMAR_LOOT"
+      iconUid   =   "banner"
+      usualNameChaos   =   "UI_ABILITY_BANNER_ULTRAMAR_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_BANNER_ULTRAMAR_DESC"
+      pickupNameChaos   =   "UI_ABILITY_BANNER_ULTRAMAR_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_BANNER_ULTRAMAR_LOOT"
+      iconUidChaos   =   "banner_chaos"
+      __type   =   "AbilityUiData"
+   }
+   ability_camouflage   =   {
+      usualName   =   "UI_ABILITY_CAMOUFLAGE_NAME"
+      description   =   "UI_ABILITY_CAMOUFLAGE_DESC"
+      pickupName   =   "UI_ABILITY_CAMOUFLAGE_PICKUP"
+      lootName   =   "UI_ABILITY_CAMOUFLAGE_LOOT"
+      iconUid   =   "camo_cloak"
+      usualNameChaos   =   "UI_ABILITY_CAMOUFLAGE_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_CAMOUFLAGE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_CAMOUFLAGE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_CAMOUFLAGE_LOOT"
+      iconUidChaos   =   "camo_cloak_chaos"
+      __type   =   "AbilityUiData"
+   }
+   ability_grappling_hook   =   {
+      usualName   =   "UI_ABILITY_GRAPPLING_HOOK_NAME"
+      description   =   "UI_ABILITY_GRAPPLING_HOOK_DESC"
+      pickupName   =   "UI_ABILITY_GRAPPLING_HOOK_PICKUP"
+      lootName   =   "UI_ABILITY_GRAPPLING_HOOK_LOOT"
+      iconUid   =   "grapnel_launcher"
+      usualNameChaos   =   "UI_ABILITY_GRAPPLING_HOOK_NAME"
+      descriptionChaos   =   "UI_ABILITY_GRAPPLING_HOOK_DESC"
+      pickupNameChaos   =   "UI_ABILITY_GRAPPLING_HOOK_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_GRAPPLING_HOOK_LOOT"
+      iconUidChaos   =   "grapnel_launcher_chaos"
+      __type   =   "AbilityUiData"
+   }
+   ability_barrier   =   {
+      usualName   =   "UI_ABILITY_BARRIER_NAME"
+      description   =   "UI_ABILITY_BARRIER_DESC"
+      pickupName   =   "UI_ABILITY_BARRIER_PICKUP"
+      lootName   =   "UI_ABILITY_BARRIER_LOOT"
+      iconUid   =   "barrier"
+      usualNameChaos   =   "UI_ABILITY_BARRIER_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_BARRIER_DESC"
+      pickupNameChaos   =   "UI_ABILITY_BARRIER_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_BARRIER_LOOT"
+      iconUidChaos   =   "barrier_chaos"
+      __type   =   "AbilityUiData"
+   }
+   ability_rage   =   {
+      usualName   =   "UI_ABILITY_RAGE_NAME"
+      description   =   "UI_ABILITY_RAGE_DESC"
+      pickupName   =   "UI_ABILITY_RAGE_PICKUP"
+      lootName   =   "UI_ABILITY_RAGE_LOOT"
+      iconUid   =   "rage_mode"
+      usualNameChaos   =   "UI_ABILITY_RAGE_NAME"
+      descriptionChaos   =   "UI_ABILITY_RAGE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_RAGE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_RAGE_LOOT"
+      __type   =   "AbilityUiData"
+   }
+   ability_jetpack   =   {
+      usualName   =   "UI_ABILITY_JETPACK_NAME"
+      description   =   "UI_ABILITY_JETPACK_DESC"
+      pickupName   =   "UI_ABILITY_JETPACK_PICKUP"
+      lootName   =   "UI_ABILITY_JETPACK_LOOT"
+      iconUid   =   "jet_pack"
+      usualNameChaos   =   "UI_ABILITY_JETPACK_NAME"
+      descriptionChaos   =   "UI_ABILITY_JETPACK_DESC"
+      pickupNameChaos   =   "UI_ABILITY_JETPACK_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_JETPACK_LOOT"
+      iconUidChaos   =   "jet_pack_chaos"
+      __type   =   "AbilityUiData"
+   }
+   ability_threatening_battle_cry   =   {
+      usualName   =   "UI_ABILITY_BATTLE_CRY_NAME"
+      description   =   "UI_ABILITY_BATTLE_CRY_DESC"
+      pickupName   =   "UI_ABILITY_BATTLE_CRY_PICKUP"
+      lootName   =   "UI_ABILITY_BATTLE_CRY_LOOT"
+      iconUid   =   "battle_cry"
+      usualNameChaos   =   "UI_ABILITY_BATTLE_CRY_NAME"
+      descriptionChaos   =   "UI_ABILITY_BATTLE_CRY_DESC"
+      pickupNameChaos   =   "UI_ABILITY_BATTLE_CRY_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_BATTLE_CRY_LOOT"
+      iconUidChaos   =   "battle_cry"
+      __type   =   "AbilityUiData"
+   }
+   ability_auspex_scan   =   {
+      usualName   =   "UI_ABILITY_AUSPEX_SCAN_NAME"
+      description   =   "UI_ABILITY_AUSPEX_SCAN_DESC"
+      pickupName   =   "UI_ABILITY_AUSPEX_SCAN_PICKUP"
+      lootName   =   "UI_ABILITY_AUSPEX_SCAN_LOOT"
+      iconUid   =   "auspex"
+      usualNameChaos   =   "UI_ABILITY_AUSPEX_SCAN_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_AUSPEX_SCAN_DESC"
+      pickupNameChaos   =   "UI_ABILITY_AUSPEX_SCAN_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_AUSPEX_SCAN_LOOT"
+      iconUidChaos   =   "auspex_chaos"
+      __type   =   "AbilityUiData"
+   }
+   ability_jetpack_pve   =   {
+      usualName   =   "UI_ABILITY_JETPACK_NAME"
+      description   =   "UI_ABILITY_JETPACK_DESC"
+      pickupName   =   "UI_ABILITY_JETPACK_PICKUP"
+      lootName   =   "UI_ABILITY_JETPACK_LOOT"
+      iconUid   =   "jet_pack"
+      usualNameChaos   =   "UI_ABILITY_BODY_MELEE_LOOT"
+      descriptionChaos   =   "UI_ABILITY_JETPACK_DESC"
+      pickupNameChaos   =   "UI_ABILITY_JETPACK_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_JETPACK_LOOT"
+      iconUidChaos   =   "jet_pack_chaos"
+      __type   =   "AbilityUiData"
+   }
+   ability_pc_helbrute_healing   =   {
+      iconUid   =   "hellbrute_ability_icon"
+      iconUidChaos   =   "hellbrute_ability_icon"
+      __type   =   "AbilityUiData"
+   }
+}
+meleeData   =   {
+   melee_combat_knife   =   {
+      usualName   =   "UI_ABILITY_COMBAT_KNIFE_NAME"
+      description   =   "UI_ABILITY_COMBAT_KNIFE_DESC"
+      pickupName   =   "UI_ABILITY_COMBAT_KNIFE_PICKUP"
+      lootName   =   "UI_ABILITY_COMBAT_KNIFE_LOOT"
+      usualNameChaos   =   "UI_ABILITY_COMBAT_KNIFE_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_COMBAT_KNIFE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_COMBAT_KNIFE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_COMBAT_KNIFE_LOOT"
+      customizationDescription   =   "UI_ABILITY_COMBAT_KNIFE_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "MELEE_WEAPON"
+      versions   =   {
+         "01"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_01_NAME"
+            strikePower   =   4
+            strikeSpeed   =   6
+            control   =   2
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_02_NAME"
+            strikePower   =   6
+            strikeSpeed   =   6.5
+            control   =   6
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02_a"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_02_A_NAME"
+            strikePower   =   3.5
+            strikeSpeed   =   9
+            control   =   1
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_03_NAME"
+            strikePower   =   9.5
+            strikeSpeed   =   4.5
+            control   =   2
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_a"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_03_A_NAME"
+            strikePower   =   7
+            strikeSpeed   =   9
+            control   =   1
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_04_NAME"
+            strikePower   =   13
+            strikeSpeed   =   7.5
+            control   =   6
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_a"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_04_A_NAME"
+            strikePower   =   10.5
+            strikeSpeed   =   9
+            control   =   1
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_b"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_04_B_NAME"
+            strikePower   =   16.5
+            strikeSpeed   =   4.5
+            control   =   2
+            __type   =   "MeleeUiVersionData"
+         }
+         "05"   =   {
+            versionName   =   "UI_ABILITY_COMBAT_KNIFE_05_NAME"
+            strikePower   =   14
+            strikeSpeed   =   7.5
+            control   =   2
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      skins   =   {
+         "01"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_01_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_02_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_02_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02_a"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_02_A_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_02_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_03_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_03_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_a"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_03_A_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_03_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_04_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_04_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_a"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_04_A_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_04_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_b"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_04_B_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_04_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_ch"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_CHAOS_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "6_difficulty_reward"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_ABSOLUTE_REWARD_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_ABSOLUTE_REWARD_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_white_scars"   =   {
+            nameUid   =   "UI_ABILITY_COMBAT_KNIFE_WHITE_SCARS_NAME"
+            descUid   =   "UI_ABILITY_COMBAT_KNIFE_WHITE_SCARS_NAME"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_white"   =   {
+            nameUid   =   "UI_MELEE_COMBAT_KNIFE_HM_WHITE_NAME"
+            descUid   =   "UI_MELEE_COMBAT_KNIFE_HM_WHITE_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_blue"   =   {
+            nameUid   =   "UI_MELEE_COMBAT_KNIFE_HM_BLUE_NAME"
+            descUid   =   "UI_MELEE_COMBAT_KNIFE_HM_BLUE_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_red"   =   {
+            nameUid   =   "UI_MELEE_COMBAT_KNIFE_HM_RED_NAME"
+            descUid   =   "UI_MELEE_COMBAT_KNIFE_HM_RED_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+   melee_chainsword   =   {
+      usualName   =   "UI_ABILITY_CHAINSWORD_NAME"
+      description   =   "UI_ABILITY_CHAINSWORD_DESC"
+      pickupName   =   "UI_ABILITY_CHAINSWORD_PICKUP"
+      lootName   =   "UI_ABILITY_CHAINSWORD_LOOT"
+      usualNameChaos   =   "UI_ABILITY_CHAINSWORD_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_CHAINSWORD_DESC"
+      pickupNameChaos   =   "UI_ABILITY_CHAINSWORD_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_CHAINSWORD_LOOT"
+      customizationDescription   =   "UI_ABILITY_CHAINSWORD_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "MELEE_WEAPON"
+      versions   =   {
+         "01"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_01_NAME"
+            strikePower   =   5.5
+            strikeSpeed   =   5
+            control   =   4
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "01_a"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_01_A_NAME"
+            strikePower   =   8
+            strikeSpeed   =   5
+            control   =   10
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_02_NAME"
+            strikePower   =   8
+            strikeSpeed   =   5
+            control   =   10
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02_a"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_02_A_NAME"
+            strikePower   =   10
+            strikeSpeed   =   3
+            control   =   4
+            defense   =   "BLOCK"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_03_NAME"
+            strikePower   =   11.5
+            strikeSpeed   =   6
+            control   =   10
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_a"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_03_A_NAME"
+            strikePower   =   9
+            strikeSpeed   =   9
+            control   =   1
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_b"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_03_B_NAME"
+            strikePower   =   14
+            strikeSpeed   =   3
+            control   =   4
+            defense   =   "BLOCK"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_04_NAME"
+            strikePower   =   16
+            strikeSpeed   =   7
+            control   =   10
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_a"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_04_A_NAME"
+            strikePower   =   12.5
+            strikeSpeed   =   9
+            control   =   1
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_b"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_04_B_NAME"
+            strikePower   =   18.5
+            strikeSpeed   =   3
+            control   =   4
+            defense   =   "BLOCK"
+            __type   =   "MeleeUiVersionData"
+         }
+         "01_preorder"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_PREORDER_NAME"
+            __type   =   "MeleeUiVersionData"
+         }
+         "05"   =   {
+            versionName   =   "UI_ABILITY_CHAINSWORD_05_NAME"
+            strikePower   =   19
+            strikeSpeed   =   4.4
+            control   =   10
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      skins   =   {
+         "01"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_01_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_02_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_02_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02_a"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_02_A_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_02_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_03_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_03_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_a"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_03_A_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_03_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_b"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_03_B_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_03_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_04_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_04_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_a"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_04_A_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_04_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_b"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_04_B_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_04_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "05"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_05_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_05_NAME"
+            __type   =   "MeleeUiSkinData"
+         }
+         preorder   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_PREORDER_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_PREORDER_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_ch"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_CHAOS_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_twitch"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_TWITCH_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_TWITCH_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         deathwatch_sword   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_ORIGINAL_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_ORIGINAL_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_sw"   =   {
+            nameUid   =   "UI_ABILITY_CHAINSWORD_SPACE_WOLVES_NAME"
+            descUid   =   "UI_ABILITY_CHAINSWORD_SPACE_WOLVES_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_white"   =   {
+            nameUid   =   "UI_MELEE_CHAINSWORD_HM_WHITE_NAME"
+            descUid   =   "UI_MELEE_CHAINSWORD_HM_WHITE_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_blue"   =   {
+            nameUid   =   "UI_MELEE_CHAINSWORD_HM_BLUE_NAME"
+            descUid   =   "UI_MELEE_CHAINSWORD_HM_BLUE_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_red"   =   {
+            nameUid   =   "UI_MELEE_CHAINSWORD_HM_RED_NAME"
+            descUid   =   "UI_MELEE_CHAINSWORD_HM_RED_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+   melee_thunder_hammer   =   {
+      usualName   =   "UI_ABILITY_THUNDER_HAMMER_NAME"
+      description   =   "UI_ABILITY_THUNDER_HAMMER_DESC"
+      pickupName   =   "UI_ABILITY_THUNDER_HAMMER_PICKUP"
+      lootName   =   "UI_ABILITY_THUNDER_HAMMER_LOOT"
+      usualNameChaos   =   "UI_ABILITY_THUNDER_HAMMER_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_THUNDER_HAMMER_DESC"
+      pickupNameChaos   =   "UI_ABILITY_THUNDER_HAMMER_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_THUNDER_HAMMER_LOOT"
+      customizationDescription   =   "UI_ABILITY_THUNDER_HAMMER_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "MELEE_WEAPON"
+      versions   =   {
+         "01"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_01_NAME"
+            strikePower   =   4.5
+            strikeSpeed   =   4.5
+            control   =   6
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_02_NAME"
+            strikePower   =   8
+            strikeSpeed   =   5
+            control   =   12
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02_a"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_02_A_NAME"
+            strikePower   =   5.5
+            strikeSpeed   =   8
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02_b"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_02_B_NAME"
+            strikePower   =   10.5
+            strikeSpeed   =   3
+            control   =   6
+            __type   =   "MeleeUiVersionData"
+         }
+         "03"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_03_NAME"
+            strikePower   =   10.5
+            strikeSpeed   =   6
+            control   =   12
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_a"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_03_A_NAME"
+            strikePower   =   8
+            strikeSpeed   =   8
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_b"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_03_B_NAME"
+            strikePower   =   13
+            strikeSpeed   =   3
+            control   =   6
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_c"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_03_C_NAME"
+            strikePower   =   11.5
+            strikeSpeed   =   4
+            control   =   10
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_04_NAME"
+            strikePower   =   14
+            strikeSpeed   =   7
+            control   =   12
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_a"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_04_A_NAME"
+            strikePower   =   11.5
+            strikeSpeed   =   8
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_b"   =   {
+            versionName   =   "UI_ABILITY_THUNDER_HAMMER_04_B_NAME"
+            strikePower   =   16.5
+            strikeSpeed   =   3
+            control   =   6
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      skins   =   {
+         "01"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_01_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_02_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_02_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02_a"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_02_A_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_02_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02_b"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_02_B_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_02_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_03_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_03_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_a"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_03_A_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_03_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_b"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_03_B_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_03_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_c"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_03_C_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_03_C_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_04_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_04_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_a"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_04_A_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_04_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_b"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_04_B_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_04_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_ch"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_CHAOS_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_librarium"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_LIBRARIUM_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_LIBRARIUM_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_sw"   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_SPACE_WOLVES_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_SPACE_WOLVES_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_white"   =   {
+            nameUid   =   "UI_MELEE_THUNDER_HAMMER_HM_WHITE_NAME"
+            descUid   =   "UI_MELEE_THUNDER_HAMMER_HM_WHITE_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_blue"   =   {
+            nameUid   =   "UI_MELEE_THUNDER_HAMMER_HM_BLUE_NAME"
+            descUid   =   "UI_MELEE_THUNDER_HAMMER_HM_BLUE_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_red"   =   {
+            nameUid   =   "UI_MELEE_THUNDER_HAMMER_HM_RED_NAME"
+            descUid   =   "UI_MELEE_THUNDER_HAMMER_HM_RED_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+   melee_power_fist   =   {
+      usualName   =   "UI_ABILITY_POWER_FIST_NAME"
+      description   =   "UI_ABILITY_POWER_FIST_DESC"
+      pickupName   =   "UI_ABILITY_POWER_FIST_PICKUP"
+      lootName   =   "UI_ABILITY_POWER_FIST_LOOT"
+      usualNameChaos   =   "UI_ABILITY_POWER_FIST_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_POWER_FIST_DESC"
+      pickupNameChaos   =   "UI_ABILITY_POWER_FIST_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_POWER_FIST_LOOT"
+      customizationDescription   =   "UI_ABILITY_POWER_FIST_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "MELEE_WEAPON"
+      versions   =   {
+         "01"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_01_NAME"
+            strikePower   =   4.5
+            strikeSpeed   =   5.5
+            control   =   4.5
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_02_NAME"
+            strikePower   =   7
+            strikeSpeed   =   5.5
+            control   =   12.5
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_02_A_NAME"
+            strikePower   =   9.5
+            strikeSpeed   =   1.5
+            control   =   4.5
+            __type   =   "MeleeUiVersionData"
+         }
+         "03"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_03_NAME"
+            strikePower   =   10.5
+            strikeSpeed   =   6.5
+            control   =   12.5
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_03_A_NAME"
+            strikePower   =   8
+            strikeSpeed   =   9.5
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_b"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_03_B_NAME"
+            strikePower   =   13
+            strikeSpeed   =   1.5
+            control   =   4.5
+            __type   =   "MeleeUiVersionData"
+         }
+         "04"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_04_NAME"
+            strikePower   =   15
+            strikeSpeed   =   7.5
+            control   =   12.5
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_04_A_NAME"
+            strikePower   =   13
+            strikeSpeed   =   9.5
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_b"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_04_B_NAME"
+            strikePower   =   17.5
+            strikeSpeed   =   1.5
+            control   =   4.5
+            __type   =   "MeleeUiVersionData"
+         }
+         "01_twitch"   =   {
+            versionName   =   "UI_ABILITY_POWER_FIST_TWITCH_NAME"
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      skins   =   {
+         "01"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_01_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_02_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_02_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_02_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_02_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_03_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_03_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_03_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_03_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_b"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_03_B_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_03_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_04_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_04_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_04_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_04_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_b"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_04_B_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_04_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         twitch   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_TWITCH_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_TWITCH_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_ch"   =   {
+            nameUid   =   "UI_ABILITY_POWER_FIST_CHAOS_NAME"
+            descUid   =   "UI_ABILITY_POWER_FIST_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+   melee_power_sword   =   {
+      usualName   =   "UI_ABILITY_POWER_SWORD_NAME"
+      description   =   "UI_ABILITY_POWER_SWORD_DESC"
+      pickupName   =   "UI_ABILITY_POWER_SWORD_PICKUP"
+      lootName   =   "UI_ABILITY_POWER_SWORD_LOOT"
+      usualNameChaos   =   "UI_ABILITY_POWER_SWORD_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_POWER_SWORD_DESC"
+      pickupNameChaos   =   "UI_ABILITY_POWER_SWORD_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_POWER_SWORD_LOOT"
+      customizationDescription   =   "UI_ABILITY_POWER_SWORD_CUSTOMIZATION_DESC"
+      iconSwitcherType   =   "MELEE_WEAPON"
+      versions   =   {
+         "01"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_01_NAME"
+            strikePower   =   5
+            strikeSpeed   =   5.5
+            control   =   4
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_02_NAME"
+            strikePower   =   7.5
+            strikeSpeed   =   5.5
+            control   =   12
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_02_A_NAME"
+            strikePower   =   10
+            strikeSpeed   =   3.5
+            control   =   4
+            __type   =   "MeleeUiVersionData"
+         }
+         "02_b"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_02_B_NAME"
+            strikePower   =   6
+            strikeSpeed   =   9.5
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_03_NAME"
+            strikePower   =   12
+            strikeSpeed   =   5.5
+            control   =   12
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_03_A_NAME"
+            strikePower   =   14.5
+            strikeSpeed   =   3.5
+            control   =   4
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_b"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_03_B_NAME"
+            strikePower   =   10
+            strikeSpeed   =   9.5
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_04_NAME"
+            strikePower   =   14.5
+            strikeSpeed   =   5.5
+            control   =   12
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_04_A_NAME"
+            strikePower   =   12
+            strikeSpeed   =   9.5
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_b"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_04_B_NAME"
+            strikePower   =   17
+            strikeSpeed   =   3.5
+            control   =   4
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_c"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_04_C_NAME"
+            strikePower   =   13.5
+            strikeSpeed   =   7.5
+            control   =   12
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "05"   =   {
+            versionName   =   "UI_ABILITY_POWER_SWORD_05_NAME"
+            strikePower   =   15.5
+            strikeSpeed   =   3.5
+            control   =   16
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      skins   =   {
+         "01"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_01_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_02_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_02_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_02_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_02_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02_b"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_02_B_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_02_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_03_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_03_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_03_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_03_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_b"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_03_B_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_03_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_04_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_04_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_04_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_04_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_b"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_04_B_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_04_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_c"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_04_C_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_04_C_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_ch"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_CHAOS_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "5_difficulty_reward"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_5_DIFFICULTY_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_5_DIFFICULTY_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         dark_angels   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_DARKANGELS_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_DARKANGELS_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_white"   =   {
+            nameUid   =   "UI_MELEE_POWER_SWORD_HM_WHITE_NAME"
+            descUid   =   "UI_MELEE_POWER_SWORD_HM_WHITE_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_blue"   =   {
+            nameUid   =   "UI_MELEE_POWER_SWORD_HM_BLUE_NAME"
+            descUid   =   "UI_MELEE_POWER_SWORD_HM_BLUE_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_red"   =   {
+            nameUid   =   "UI_MELEE_POWER_SWORD_HM_RED_NAME"
+            descUid   =   "UI_MELEE_POWER_SWORD_HM_RED_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_bt"   =   {
+            nameUid   =   "UI_ABILITY_POWER_SWORD_BLACKTEMPLAR_NAME"
+            descUid   =   "UI_ABILITY_POWER_SWORD_BLACKTEMPLAR_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+   melee_firearm   =   {
+      usualName   =   "UI_ABILITY_BODY_MELEE_NAME"
+      description   =   "UI_ABILITY_BODY_MELEE_DESC"
+      pickupName   =   "UI_ABILITY_BODY_MELEE_PICKUP"
+      lootName   =   "UI_ABILITY_BODY_MELEE_LOOT"
+      usualNameChaos   =   "UI_ABILITY_BODY_MELEE_NAME"
+      descriptionChaos   =   "UI_ABILITY_BODY_MELEE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_BODY_MELEE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_BODY_MELEE_LOOT"
+      iconSwitcherType   =   "MELEE_WEAPON"
+      versions   =   {
+         "01"   =   {
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+   melee_pc_helbrute_hammer   =   {
+      versions   =   {
+         "01"   =   {
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+   melee_power_axe   =   {
+      usualName   =   "UI_ABILITY_POWER_AXE_NAME"
+      description   =   "UI_ABILITY_POWER_AXE_DESC"
+      pickupName   =   "UI_ABILITY_POWER_AXE_PICKUP"
+      lootName   =   "UI_ABILITY_POWER_AXE_LOOT"
+      usualNameChaos   =   "UI_ABILITY_POWER_AXE_CHAOS_NAME"
+      descriptionChaos   =   "UI_ABILITY_POWER_AXE_DESC"
+      pickupNameChaos   =   "UI_ABILITY_POWER_AXE_PICKUP"
+      lootNameChaos   =   "UI_ABILITY_POWER_AXE_LOOT"
+      customizationDescription   =   "UI_ABILITY_POWER_AXE_CUSTOMIZATION_DESC"
+      versions   =   {
+         "01"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_01_NAME"
+            strikePower   =   5.5
+            strikeSpeed   =   4
+            control   =   5
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_02_NAME"
+            strikePower   =   7
+            strikeSpeed   =   4
+            control   =   9
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "02_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_02_A_NAME"
+            strikePower   =   6
+            strikeSpeed   =   8
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_03_NAME"
+            strikePower   =   10
+            strikeSpeed   =   5
+            control   =   9
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_03_A_NAME"
+            strikePower   =   9
+            strikeSpeed   =   8
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "03_b"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_03_B_NAME"
+            strikePower   =   15
+            strikeSpeed   =   2
+            control   =   5
+            __type   =   "MeleeUiVersionData"
+         }
+         "04"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_04_NAME"
+            strikePower   =   15
+            strikeSpeed   =   6
+            control   =   9
+            defense   =   "BALANCED"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_a"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_04_A_NAME"
+            strikePower   =   12
+            strikeSpeed   =   8
+            control   =   2
+            defense   =   "FENCING"
+            __type   =   "MeleeUiVersionData"
+         }
+         "04_b"   =   {
+            versionName   =   "UI_ABILITY_POWER_AXE_04_B_NAME"
+            strikePower   =   17
+            strikeSpeed   =   2
+            control   =   5
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      skins   =   {
+         "01"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_01_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_02_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_02_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "02_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_02_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_02_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_03_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_03_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_03_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_03_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "03_b"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_03_B_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_03_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_04_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_04_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_a"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_04_A_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_04_A_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "04_b"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_04_B_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_04_B_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         "01_ch"   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_CHAOS_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_CHAOS_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+         twitch   =   {
+            nameUid   =   "UI_ABILITY_POWER_AXE_TWITCH_NAME"
+            descUid   =   "UI_ABILITY_POWER_AXE_TWITCH_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+   melee_power_halberd   =   {
+      customizationDescription   =   "UI_ABILITY_POWER_HALBERD_CUSTOMIZATION_DESC"
+      versions   =   {
+         "01"   =   {
+            __type   =   "MeleeUiVersionData"
+         }
+      }
+      __type   =   "MeleeUiData"
+   }
+}
+errorData   =   {
+   usualName   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   description   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   pickupName   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   lootName   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   usualNameChaos   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   descriptionChaos   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   pickupNameChaos   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   lootNameChaos   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   customizationDescription   =   "TECH_ERROR_PARAMETER,\"No ability uid\""
+   __type   =   "AbilityUiData"
+}
+__type   =   "object"
