@@ -150,6 +150,14 @@ This document summarizes player-facing abilities and equipment exposing cooldown
 - Barrier/camouflage-specific events (e.g., `broken`, `IndicateEnding`) can layer on top by listening to ability custom events if we need supplementary visual states.
 - The `*DataProviderBase` classes themselves are not defined in the unpacked SSL tree (likely engine-authored); we will rely on their exposed contracts rather than reimplementing resource fetch logic.
 
+### Data Provider Sketch
+- Create `ui_player_ability_timers_data_provider.sso` that inherits from `UiDataProviderBased` and consumes a yet-to-be-exposed engine hook delivering a map of `{slotId, abilityUid}` plus live cooldown data (percent/charges/timestamps).
+- The provider should:
+  - Pull the player’s current class ability, grapple, consumables, and secure stockpile state via the same subsystems that feed the weapon/equipment panels.
+  - Push computed fields into each tile (`iconKey`, `cooldownPercent`, `remainingSeconds`, `charges`, `state`), matching the bindings exposed on `UiAbilityTimerTile`.
+  - Emit visibility toggles for abilities the player does not own so empty slots stay hidden.
+- Initial implementation can mirror `UiEquipmentPanelDataProviderBase` patterns (main slot for secure stockpile, secondary slots enumerating abilities) before layering special cases (e.g., rage duration overlay).
+
 ## Follow-Up Items
 
 - Decide whether to subclass the existing slot widgets or build lightweight containers that replicate their required fields while keeping layout flexibility for the new cooldown row.

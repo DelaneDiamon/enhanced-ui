@@ -70,6 +70,7 @@
 - Trace `UiEquipmentPanelDataProviderBase`/`UiWeaponPanelDataProviderBase` in the runtime to understand how they surface charges and energy so the new timers can subscribe without duplicating logic.
 - Compose `ui_player_ability_timers_view.sso` to host multiple `ui_ability_timer_tile.sso` instances and expose attachment slots for the HUD layouts.
 - Extend each HUD layout to include the new `ability_timers_attach` point and ensure attachment order plays nicely with `secure_stockpile_attach` and existing weapon panel placements.
+- Build a lightweight data provider blueprint that mirrors the ultimate/equipment panel patterns (subscribe to ability energy + equipment charges) and fan-out the data into the new slots; this is the milestone where in-game testing becomes meaningful to verify cooldown visuals update under real combat scenarios.
 
 ## Follow-Up Ideas
 - Add user settings to toggle individual ability tiles or swap between numeric timers and percent-only mode.

@@ -2,19 +2,16 @@ componentsList   =   {
    UiAttachmentsComponent   =   {
       customAttachPoints   =   {
          AbilityTimerSlot1   =   {
-            __value   =   "content/slots/slot_1"
+            __value   =   "content/ability_strip/slot_1"
          }
          AbilityTimerSlot2   =   {
-            __value   =   "content/slots/slot_2"
+            __value   =   "content/ability_strip/slot_2"
          }
          AbilityTimerSlot3   =   {
-            __value   =   "content/slots/slot_3"
+            __value   =   "content/ability_strip/slot_3"
          }
          AbilityTimerSlot4   =   {
-            __value   =   "content/slots/slot_4"
-         }
-         AbilityTimerSlot5   =   {
-            __value   =   "content/slots/slot_5"
+            __value   =   "content/ability_strip/slot_4"
          }
       }
    }
@@ -24,8 +21,19 @@ componentsList   =   {
 childs   =   {
    content   =   {
       isSizeToContent   =   True
+      spacing   =   12
       childs   =   {
-         slots   =   {
+         secure_stockpile_tile   =   {
+            width   =   88
+            height   =   88
+            childs   =   {
+               tile   =   {
+                  __type   =   "UiSecureStockpileView"
+               }
+            }
+            __type   =   "UiFusionContainer"
+         }
+         ability_strip   =   {
             spacing   =   8
             childs   =   {
                slot_1   =   {
@@ -48,16 +56,11 @@ childs   =   {
                   height   =   88
                   __type   =   "UiFusionContainer"
                }
-               slot_5   =   {
-                  width   =   88
-                  height   =   88
-                  __type   =   "UiFusionContainer"
-               }
             }
             __type   =   "UiHorizontalBox"
          }
       }
-      __type   =   "UiFusionContainer"
+      __type   =   "UiHorizontalBox"
    }
 }
 __type   =   "UiPlayerAbilityTimersView"
