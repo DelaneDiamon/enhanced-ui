@@ -2,3 +2,6 @@
 pack_ssl/
 *.zip
 *.pak
+# local links into live game install
+game_mods
+game_mods_source
