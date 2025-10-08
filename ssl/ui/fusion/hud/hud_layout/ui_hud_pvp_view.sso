@@ -80,6 +80,9 @@ componentsList   =   {
          UiSecureStockpileView   =   {
             __value   =   "secure_stockpile_attach"
          }
+         UiPlayerAbilityTimersView   =   {
+            __value   =   "ability_timers_attach"
+         }
       }
    }
    UiDataDrivenComponent   =   {
@@ -412,6 +415,33 @@ childs   =   {
          offsetMax   =   {
             x   =   0
             y   =   145
+            __type   =   "Vector2d"
+         }
+         __type   =   "UiCanvasSlot"
+      }
+      isSizeToContent   =   False
+      __type   =   "UiFusionContainer"
+   }
+   ability_timers_attach   =   {
+      layoutSlot   =   {
+         anchorMin   =   {
+            x   =   0.5
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         anchorMax   =   {
+            x   =   0.5
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         offsetMin   =   {
+            x   =   0
+            y   =   200
+            __type   =   "Vector2d"
+         }
+         offsetMax   =   {
+            x   =   0
+            y   =   200
             __type   =   "Vector2d"
          }
          __type   =   "UiCanvasSlot"

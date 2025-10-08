@@ -1,0 +1,1389 @@
+assetCategories   =   {
+   Common   =   {
+      sslModule   =   "ui.fusion.common.ui_asset_category"
+      assets   =   {
+         NavButton   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiNavButtonView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            __type   =   "UiAssetHolder"
+         }
+         SystemPopup   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.popup_messages.ui_system_popup_view"
+                  __type   =   "UiSystemPopupView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "POPUPS"
+            __type   =   "UiAssetHolder"
+         }
+         Tooltip   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTooltipView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "TOOLTIPS"
+            __type   =   "UiAssetHolder"
+         }
+         PostMatch   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPostMatchView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         SolidScreenBg   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiFadeBackgroundDarkSolid"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "BACKGROUNDS"
+            __type   =   "UiAssetHolder"
+         }
+         SpaceScreenBg   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiFadeBackgroundSpace"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "BACKGROUNDS"
+            __type   =   "UiAssetHolder"
+         }
+         VingetteScreenBg   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiFadeBackgroundVignette"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "BACKGROUNDS"
+            __type   =   "UiAssetHolder"
+         }
+         ArmoryScreenBg   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiFadeBackgroundArmoryUwhd"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "BACKGROUNDS"
+            __type   =   "UiAssetHolder"
+         }
+         ModsDetector   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiModsDetectorView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "DEBUG_TOP"
+            __type   =   "UiAssetHolder"
+         }
+         PvpLobbyInviteCode   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSettingsInviteCode"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+      }
+      __type   =   "UiAssetCategory"
+   }
+   Screens   =   {
+      sslModule   =   "ui.fusion.common.ui_asset_category"
+      assets   =   {
+         Pause   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.ingame.ui_pause_screen_view"
+                  __type   =   "UiPauseScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Settings   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.screens.settings.ui_settings_view"
+                  __type   =   "UiSettingsView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Title   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.title_screen.ui_title_screen_view"
+                  __type   =   "UiTitleScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Spectator   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.screens.spectator_screen.ui_spectator_view"
+                  __type   =   "UiSpectatorScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         SelectPlanet   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSelectPlanetView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         SelectStoryMission   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSelectStoryMissionView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         SelectPveMission   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSelectPveModeView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         SelectGameMode   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiGameModeSelectView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         HubMap   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHubMapView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Armory   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiArmoryScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         HubHud   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudHubView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         PveHud   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudPveView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         PvpHud   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudPvpView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         HordemodeHud   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudHordemodeView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         PvpHelbruteHud   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudPvpHelbruteView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         TacTeamSelection   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTacTeamView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         TacTeamRoster   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTacTeamRosterView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Loading   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiFullscreenLoaderView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         PveWeaponCustomization   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiWeaponProgressionView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         AppearanceCustomization   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiAppearanceCustomizationView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Cinematic   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudCinematicView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         CustomArmor   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiArmorCustomizationView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         SelectPvpGameMode   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSelectPvpModeView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         CodexAstartes   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiCodexScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         HeraldryEditor   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHeraldryEditorView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         PvpMissionResult   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPvpMissionResultView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         AgreementScreen   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiAgreementView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            __type   =   "UiAssetHolder"
+         }
+         DifficultyScreen   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSelectGameDifficultyView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         StoryScoreboard   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiStoryScoreboardView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         TrainingHall   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTrainingHallView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         TrainingHallChallenge   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTrainingHallObjectiveView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         TrainingHallPostMatch   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTrainingHallPostMatchView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         WeaponAppearance   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiWeaponApperanceBlock"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            __type   =   "UiAssetHolder"
+         }
+         WeaponPerksTree   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiWeaponPerksTree"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            __type   =   "UiAssetHolder"
+         }
+         PvpClassSelect   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPvpClassSelectView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         WeaponVersionParameters   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiWeaponStats"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            __type   =   "UiAssetHolder"
+         }
+         PopupInvite   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPopupInviteView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "TOOLTIPS"
+            __type   =   "UiAssetHolder"
+         }
+         Librarium   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiLibrariumScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         ControlsLayoutSettings   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiLayoutControlScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         WeaponCustomization   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTacTeamWeaponCustomizationView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         WeaponPreview   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiWeaponPreview"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         CharacterSelect   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiCharacterSelectView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Credits   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiCreditsView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         RecentPlayers   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiRecentPlayersView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         IngameLoadoutsSelector   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiIngameLoadoutsView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Intro   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiIntroView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         ArmorPreview   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiArmorPreview"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         PvpCharactersProgress   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPvpPostmatchProgressView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Brightness   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSettingsBrightnessPopup"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         PvePerks   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPerkCustomizationMainView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         PvePrestigePerks   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPerkCustomizationPrestigeView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         PveMainPerks   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPerkCustomizationView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         PhotoMode   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPhotoModeView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         LibrariumSelect   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiLibrariumSelectScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         ResearchCenter   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiResearchCenterView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         ResearchCenterRewards   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiResearchCenterRewardsView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         WhatsNewBanner   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiPopupProsView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         LibrariumChallenges   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiLibrariumChallengesView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         OldLibrarium   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiLibrariumScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         CurrencyShop   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiExtensionShopView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         SectorComplete   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHordeModeSectorCompleteView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         PvpPrivateLobbyTeams   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSettingsPrivateLobby"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+      }
+      __type   =   "UiAssetCategory"
+   }
+   Hud   =   {
+      sslModule   =   "ui.fusion.common.ui_asset_category"
+      assets   =   {
+         PlayerHealth   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.healthbar.ui_hud_player_health_view"
+                  __type   =   "UiHudPlayerHealthView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         AttentionMessage   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.objective_message.ui_hud_objective_message"
+                  __type   =   "UiAttentionMessageView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         ObjectivePanel   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudObjectivePanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         GameLog   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.pickup_log.ui_hud_game_log_view"
+                  __type   =   "UiGameLogView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         Sight   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.crosshair.ui_hud_crosshair_view"
+                  __type   =   "UiHudCrosshairView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         AbilityTimers   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.ability_timers.ui_player_ability_timers_view"
+                  __type   =   "UiPlayerAbilityTimersView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         SecureStockpile   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.secure_stockpile.ui_secure_stockpile_view"
+                  __type   =   "UiSecureStockpileView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         BossHealth   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.boss_healthbar.ui_hud_boss_health_view"
+                  __type   =   "UiBossHealthView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         ScoreboardPVP   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.scoreboard.ui_pvp_scoreboard_view"
+                  __type   =   "UiScoreboardView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Tutorials   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.tutorial.ui_tutorial_view"
+                  __type   =   "UiTutorialViewNew"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         Battlehints   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.battle_hints.ui_battle_hints_view"
+                  __type   =   "UiBattleHintsView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         TeamStatusPanel   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.team_status.ui_team_status_view"
+                  __type   =   "UiTeamStatusView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         MatchResultPve   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.screens.victory_defeat.victory_defeat_pve_view"
+                  __type   =   "UiMatchResultPveView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         MatchResultPvp   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.screens.victory_defeat.victory_defeat_pvp_view"
+                  __type   =   "UiMatchResultPvpView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "SCREENS"
+            __type   =   "UiAssetHolder"
+         }
+         CapturePanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudCapturePanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         BodyHitDirection   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.hit_direction.ui_hud_hit_direction_view"
+                  __type   =   "UiHudHitDirectionView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         SightHitDirection   =   {
+            sslModule   =   "ui.fusion.common.ui_asset_holder"
+            desc   =   {
+               type   =   {
+                  sslModule   =   "ui.fusion.hud.hit_direction.ui_hud_hit_direction_zoom_view"
+                  __type   =   "UiHudHitDirectionZoomView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         FragMarkers   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudFragMarkersView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         GrapplingHook   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiGraphookView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         MatchInfo   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiMatchInfoView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         Watermark   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiWatermarkView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "DEBUG_TOP"
+            __type   =   "UiAssetHolder"
+         }
+         SquadPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHubSquadPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         JetpackOverheat   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudJetpackOverheatView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         MatchmakingInfo   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiMatchmakingInfoPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         WeaponPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiWeaponPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         SwapWeaponPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSwapWeaponPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         HubObjectivesPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHubObjectivePanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         DetonationPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiActionHintPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         CurrentLocation   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiCurrentLocationView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         IntroLocation   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiIntroLocationView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         SocialWheel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSocialWheelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         StatusEffectPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiStatusEffectPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         MemberStatus   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiMemberStatusView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         TextChat   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTextChatView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         VoteKickPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiVoteKickView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            __type   =   "UiAssetHolder"
+         }
+         RewardsPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiRewardsPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         Reminders   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudTipsView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         EquipmentPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiEquipmentPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         AudioLog   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiAudiologPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         QtePanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiQteView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         VoxPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiVoxPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         Death   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiDeathScreenView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         BadConnection   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiBadConnectionView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         PvpHint   =   {
+            desc   =   {
+               type   =   {
+                  componentsList   =   {
+                     UiDataDrivenComponent   =   {
+                     }
+                     UiStaticLocalizationComponent   =   {
+                        textfields   =   [
+                           {
+                              textfield   =   "content/subtitles/hbox/tf_size_box/tf"
+                              token   =   "UI_CHANGE_CLASS_AFTER_DEATH_HINT"
+                           }
+                        ]
+                     }
+                  }
+                  childs   =   {
+                     content   =   {
+                        childs   =   {
+                           subtitles   =   {
+                              childs   =   {
+                                 hbox   =   {
+                                    childs   =   {
+                                       speaker_container   =   {
+                                          visible   =   False
+                                          __type   =   "UiFusionContainer"
+                                       }
+                                    }
+                                    __type   =   "UiHorizontalBox"
+                                 }
+                              }
+                              __type   =   "UiOverlay"
+                           }
+                        }
+                        __type   =   "UiCanvas"
+                     }
+                  }
+                  __type   =   "UiSubtitleView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "TOOLTIPS"
+            __type   =   "UiAssetHolder"
+         }
+         HudInventory   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudInventoryPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         LastStanding   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiLastStandingView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         ChallengeNotification   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudChallengeTipView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            allowMultipleInstances   =   True
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         StayTogetherBar   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiTeammateBuffBarView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         SpawnProtection   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiSpawnProtectionView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         HordeCurrency   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudHordeCurrencyView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         HordeModeShop   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHordeModeShopView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         BuffMarine   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudHordeBuffMarineView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         HordeBossHealthPanel   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudHordeBossHealthPanelView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         HordeModeWave   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiHudHordeWaveView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+         HordeModeArmyFaction   =   {
+            desc   =   {
+               type   =   {
+                  __type   =   "UiArmyFactionTypeMessageView"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            layer   =   "HUD"
+            __type   =   "UiAssetHolder"
+         }
+      }
+      __type   =   "UiAssetCategory"
+   }
+}
+__type   =   "UiAssetStorageBase"

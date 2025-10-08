@@ -1,0 +1,63 @@
+componentsList   =   {
+   UiAttachmentsComponent   =   {
+      customAttachPoints   =   {
+         AbilityTimerSlot1   =   {
+            __value   =   "content/slots/slot_1"
+         }
+         AbilityTimerSlot2   =   {
+            __value   =   "content/slots/slot_2"
+         }
+         AbilityTimerSlot3   =   {
+            __value   =   "content/slots/slot_3"
+         }
+         AbilityTimerSlot4   =   {
+            __value   =   "content/slots/slot_4"
+         }
+         AbilityTimerSlot5   =   {
+            __value   =   "content/slots/slot_5"
+         }
+      }
+   }
+   UiDataDrivenComponent   =   {
+   }
+}
+childs   =   {
+   content   =   {
+      isSizeToContent   =   True
+      childs   =   {
+         slots   =   {
+            spacing   =   8
+            childs   =   {
+               slot_1   =   {
+                  width   =   88
+                  height   =   88
+                  __type   =   "UiFusionContainer"
+               }
+               slot_2   =   {
+                  width   =   88
+                  height   =   88
+                  __type   =   "UiFusionContainer"
+               }
+               slot_3   =   {
+                  width   =   88
+                  height   =   88
+                  __type   =   "UiFusionContainer"
+               }
+               slot_4   =   {
+                  width   =   88
+                  height   =   88
+                  __type   =   "UiFusionContainer"
+               }
+               slot_5   =   {
+                  width   =   88
+                  height   =   88
+                  __type   =   "UiFusionContainer"
+               }
+            }
+            __type   =   "UiHorizontalBox"
+         }
+      }
+      __type   =   "UiFusionContainer"
+   }
+}
+__type   =   "UiPlayerAbilityTimersView"
