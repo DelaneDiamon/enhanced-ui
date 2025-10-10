@@ -613,18 +613,18 @@ childs   =   {
       layoutSlot   =   {
          isSizeToContent   =   False
          anchorMin   =   {
-            x   =   1
+            x   =   0
             y   =   1
             __type   =   "Vector2d"
          }
          anchorMax   =   {
-            x   =   1
+            x   =   0
             y   =   1
             __type   =   "Vector2d"
          }
          offsetMin   =   {
-            x   =   -220
-            y   =   -240
+            x   =   1148
+            y   =   -120
             __type   =   "Vector2d"
          }
          __type   =   "UiCanvasSlot"
@@ -647,6 +647,7 @@ childs   =   {
             textureAsset   =   "textures/ui/armory/armory_main/armory_square_perks_available_bg.asset/armory_square_perks_available_bg.texture.asset"
             __type   =   "UiElementBitmap"
          }
+         
          icon   =   {
             pos   =   {
                x   =   12
@@ -661,22 +662,22 @@ childs   =   {
          }
          timer_text   =   {
             pos   =   {
-               x   =   48
-               y   =   8
+               x   =   44
+               y   =   6
                __type   =   "Vector3d"
             }
             pivot   =   {
-               x   =   48
+               x   =   44
                y   =   0
                __type   =   "Vector3d"
             }
-            width   =   70
-            height   =   24
+            width   =   72
+            height   =   26
             isSizeToContent   =   False
             text   =   "60.0"
             textAlign   =   "CENTER"
             defaultTextFormat   =   {
-               fontSize   =   20
+               fontSize   =   18
                __type   =   "UiDefaultTextFormat"
             }
             __type   =   "UiFusionTextfield"
@@ -684,7 +685,7 @@ childs   =   {
          label   =   {
             pos   =   {
                x   =   44
-               y   =   100
+               y   =   96
                __type   =   "Vector3d"
             }
             pivot   =   {
@@ -693,7 +694,7 @@ childs   =   {
                __type   =   "Vector3d"
             }
             width   =   96
-            height   =   18
+            height   =   20
             isSizeToContent   =   False
             text   =   "Restock"
             textAlign   =   "CENTER"
