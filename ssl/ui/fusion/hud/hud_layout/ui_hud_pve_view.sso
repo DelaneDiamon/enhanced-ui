@@ -659,10 +659,32 @@ childs   =   {
             textureAsset   =   "textures/ui/weapon_progression/weapon_perk_icons/pve_soldier_restore_equipment_team_perk.asset/pve_soldier_restore_equipment_team_perk.texture.asset"
             __type   =   "UiElementBitmap"
          }
+         timer_text   =   {
+            pos   =   {
+               x   =   48
+               y   =   8
+               __type   =   "Vector3d"
+            }
+            pivot   =   {
+               x   =   48
+               y   =   0
+               __type   =   "Vector3d"
+            }
+            width   =   70
+            height   =   24
+            isSizeToContent   =   False
+            text   =   "60.0"
+            textAlign   =   "CENTER"
+            defaultTextFormat   =   {
+               fontSize   =   20
+               __type   =   "UiDefaultTextFormat"
+            }
+            __type   =   "UiFusionTextfield"
+         }
          label   =   {
             pos   =   {
                x   =   44
-               y   =   94
+               y   =   100
                __type   =   "Vector3d"
             }
             pivot   =   {
