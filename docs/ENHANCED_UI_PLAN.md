@@ -15,14 +15,14 @@
 - Placed a static `secure_stockpile` icon and added a temporary magenta debug background.
 - Validation: confirmed icon renders in PVE; anchor semantics verified.
 
-3) Perk-Style Tile (IN PROGRESS)
-- Replace debug background with a perk-style square frame and keep the secure_stockpile icon centered.
-- Add a small text label placeholder under the icon (e.g., “Restock”).
-- Validation: icon appears on a square perk frame; label visible below.
+3) Perk-Style Tile (DONE)
+- Replaced the debug square with a perk-style frame and centered the secure_stockpile icon.
+- Added label (“Restock”) and timer placeholder (“60.0”) to define typography.
+- Validation: tile renders with frame, timer stub, and caption in PVE.
 
-4) Reusable Panel Prefab (NEXT)
-- Extract the tile into `ssl/ui/fusion/hud/enhanced_panel/ui_enhanced_ui_panel_view.sso` and attach via `UiAttachmentsComponent`.
-- Validation: same visuals; HUD layout remains clean.
+4) Reusable Panel Prefab (Deferred)
+- Inline tile kept in HUD layout for maximum compatibility; prefabization deferred until we validate the correct include pattern (e.g., asset holder/widget spawn) that doesn’t rely on custom UI class types.
+- Validation: N/A (deferred).
 
 4) Registry of Trackables
 - Author a registry SSO mapping game abilities/perks/status-effects to: icon key/asset, trigger conditions, color/tint rules, stack display, sort priority.
@@ -52,3 +52,38 @@
 ## Test Loop
 - After each step, rebuild with `python build_pak.py` and ensure the updated `enhanced_ui.pak` appears under the game `mods` folder.
 - Relaunch the game (or reload level) to see changes.
+
+## Working Notes: SM2 UI Modding (Current Understanding)
+
+- Formats and layering
+  - `SSO` are text objects (canvas, views, assets); `SSL` is script/logic; `CLS/PROP` are actors/properties. UI is largely SSO with engine UI classes.
+  - Mods overlay the base game by path. Our pak must preserve `ssl/...` paths; only include files we override to minimize risk.
+  - HUD roots (e.g., `ui_hud_pve_view.sso`) use `UiAttachmentsComponent` to expose named attach points; widgets attach there via screen code (see `ui_pve_screen.sso`).
+
+- Canvas and layout semantics
+  - HUD canvas authored for 1920×1080; anchors (`anchorMin/Max`) define origin; offsets are in canvas pixels and scale to actual resolution.
+  - Bottom-right anchoring uses `x = 1, y = 1`; offsets are typically negative to move inward from that corner.
+  - Use `UiFusionContainer` for grouping, `UiElementBitmap` for images, `UiFusionTextfield` for text; avoid undefined custom `__type` classes (causes loader crash).
+
+- Safe composition patterns
+  - Inline new UI under existing canvases first; defer prefab extraction until we can reference via proven mechanisms (e.g., asset holders or widget classes already registered).
+  - Prefer existing textures (e.g., armory perk frames, switcher perk icons) to match style and ensure assets exist.
+  - For icon libraries, refer to switchers like `ssl/ui/fusion/assets/switchers/perk_icons/ui_switcher_perk_icons.sso` to discover available icon keys/assets.
+
+- Data flow and providers
+  - Many widgets are declared as `UiDataProviderBased` and are driven by SSL providers (see `ui_status_effect_panel_data_provider.sso`).
+  - For ability/ultimate visuals, study weapon panel files (`ui_weapon_panel_ability_slot.sso`, `ui_ultimate_image.sso`, `ui_ultimate_counter.sso`) to reuse progress bars/counters/animations.
+  - Status effects panel demonstrates a list of items with progress overlays (`UiStatusEffectPanelView` + `UiStatusEffectPanelProgress`).
+
+- Packaging & config
+  - `build_pak.py` creates `mods/enhanced_ui.pak` with `ssl/` at root and appends `- pak: enhanced_ui.pak` to `pak_config.yaml` under the game’s `mods` folder.
+  - Validate by listing `mods/` and ensuring the entry exists in `pak_config.yaml`.
+
+- Debugging strategies
+  - Add temporary backgrounds/tints and text to confirm placement and layering before adding logic.
+  - If the game crashes on “Loading Resources”, suspect invalid `__type` or missing texture paths. Revert to last known-good inline UI.
+  - Make one change at a time; rebuild pak and retest. Keep screenshots with a consistent naming convention (`progress_step_XX_shortdesc.png`).
+
+- Roadmap guardrails
+  - Visual first (tiles, labels, timer placeholders) → mock logic (local 60→0 countdown) → real data provider (subscribe to ability/perk systems) → polish (animations, alerts).
+  - Avoid replacing large HUD files unnecessarily; keep diffs minimal and focused to reduce incompatibilities.
