@@ -13,6 +13,9 @@ Validate:
 - Run python3 build_pak.py
 - Confirm mods/enhanced_ui.pak exists and pak_config.yaml in game dir lists the pak.
 
+Tip — Sync overlay from mods_source:
+- After editing files via IntegrationStudio (which outputs `.resource` alongside `.sso` under `mods_source/enhanced_ui/ssl`), run `python3 scripts/sync_ssl_from_mods_source.py` to regenerate the `ssl/` staging tree before building the pak.
+
 Include:
 - Ensure your `ssl/` tree contains the Enhanced UI overrides only (attach-only HUD, new widget/view `.sso`, and their `.resource` brand files). Resource files are required for the engine to resolve `UiEnhancedTrackerPanelView` and `UiEnhancedTrackerWidget` types.
 
