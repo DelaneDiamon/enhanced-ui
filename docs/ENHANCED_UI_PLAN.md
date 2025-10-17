@@ -10,19 +10,17 @@
 - Ensure `mods` and `mods_source` symlinks work; verify `build_pak.py` builds `enhanced_ui.pak` into the game `mods` folder.
 - Validation: run `python build_pak.py`, confirm `mods/enhanced_ui.pak` appears.
 
-2) Minimal HUD Injection (DONE)
-- Copied the game’s `ui_hud_pve_view.sso` and added `enhanced_ui_panel` anchored bottom-right.
-- Placed a static `secure_stockpile` icon and added a temporary magenta debug background.
-- Validation: confirmed icon renders in PVE; anchor semantics verified.
+2) Minimal HUD Injection (Revisited)
+- Current build keeps HUD overrides minimal; the Enhanced Tracker attach point is temporarily removed while we debug mission loading.
+- Validation: HUD behaves like vanilla aside from our prior layout clean-up.
 
 3) Perk-Style Tile (DONE)
 - Replaced the debug square with a perk-style frame and centered the secure_stockpile icon.
 - Added label (“Restock”) and timer placeholder (“60.0”) to define typography.
 - Validation: tile renders with frame, timer stub, and caption in PVE.
 
-4) Reusable Panel Prefab (Deferred)
-- Inline tile kept in HUD layout for maximum compatibility; prefabization deferred until we validate the correct include pattern (e.g., asset holder/widget spawn) that doesn’t rely on custom UI class types.
-- Validation: N/A (deferred).
+4) Reusable Panel Prefab (Paused)
+- View/widget/provider assets exist in the repo but are not currently loaded. We’ll reintroduce them after confirming the reduced override set loads reliably.
 
 4) Registry of Trackables
 - Author a registry SSO mapping game abilities/perks/status-effects to: icon key/asset, trigger conditions, color/tint rules, stack display, sort priority.
@@ -34,7 +32,7 @@
 - Normalize output to a list of entries: `{id, iconKey, remainingMs, totalMs, stacks, ready}`.
 - Validation: instrument provider with temporary text or logging; check values change when using abilities.
 
-6) Dynamic UI Binding
+6) Dynamic UI Binding (Later)
 - Update the panel view to bind to the provider entries and auto-spawn item slots.
 - Each slot: icon, radial or linear progress, numeric countdown, optional stack badge and readiness glow.
 - Validation: trigger abilities/perks/status effects; the panel updates and animations play.
@@ -87,3 +85,21 @@
 - Roadmap guardrails
   - Visual first (tiles, labels, timer placeholders) → mock logic (local 60→0 countdown) → real data provider (subscribe to ability/perk systems) → polish (animations, alerts).
   - Avoid replacing large HUD files unnecessarily; keep diffs minimal and focused to reduce incompatibilities.
+
+---
+## Web‑validated updates (2025-10-11)
+
+### Live Status Seeds (Patch 10.x example)
+Add early entries to your **Trackables Registry** (IDs, icons, tints, stack rules), e.g.:
+```json
+[
+  {"id":"burning","iconKey":"ui/icon_status_burning","priority":80,"tint":"#FF4A4A","stackRule":"add","sort":"timeAsc"},
+  {"id":"suppressed","iconKey":"ui/icon_status_suppressed","priority":60,"tint":"#A0A0FF","stackRule":"replace","sort":"prioDesc"}
+]
+```
+
+### Distribution Strategy
+Prefer **attachment‑point diffs** over whole‑file HUD replacements. This minimizes conflicts with other HUD/UI mods and future patches.
+
+### Online Play Reminder
+Ship a prominent note: “Using this HUD panel will mark the game as modded. Remove the `.pak` from `root/mods` before online play.”

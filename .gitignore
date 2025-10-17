@@ -1,0 +1,6 @@
+mods/
+mods_source/
+pack_ssl/
+temp_mod_unpack/
+__pycache__/
+*.pak

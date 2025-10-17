@@ -7,6 +7,7 @@ combinedColorEffect   =   {
 }
 componentsList   =   {
    UiAttachmentsComponent   =   {
+      availableModes   =   [  ]
       attachPoints   =   {
          UiHudPlayerHealthView   =   {
             __value   =   "health_attach"
@@ -379,7 +380,6 @@ childs   =   {
       }
       __type   =   "UiFusionContainer"
    }
-   
    tutorial_attach   =   {
       layoutSlot   =   {
          isSizeToContent   =   False
@@ -647,7 +647,6 @@ childs   =   {
             textureAsset   =   "textures/ui/armory/armory_main/armory_square_perks_available_bg.asset/armory_square_perks_available_bg.texture.asset"
             __type   =   "UiElementBitmap"
          }
-         
          icon   =   {
             pos   =   {
                x   =   12
