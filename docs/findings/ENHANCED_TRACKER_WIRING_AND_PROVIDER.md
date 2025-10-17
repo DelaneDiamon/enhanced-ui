@@ -72,10 +72,9 @@ Config file: `mods_source/enhanced_ui/ssl/ui/fusion/hud/enhanced_tracker/code/ui
   - `tickIntervalMs = 1000`
   - `__type = "UiEnhancedTrackerDataProviderBase"`
 
-Widget hookup (currently disabled during investigation): normally lives in `ui_pve_screen.sso` as
+Widget hookup (UI-only experiment): defined in `ui_pve_screen.sso` as
 ```
 EnhancedTrackerPanel = {
-  providerDesc = { type = { __type = "UiEnhancedTrackerDataProvider" }, __type = "SslDesc" }
   __type = "UiEnhancedTrackerWidget"
 }
 ```
@@ -95,14 +94,36 @@ EnhancedTrackerPanel = {
 - Build and run. No errors should appear; the panel spawns and shows the static tile.
 - Logs (if available) should show the provider active. Visual change will come after the binding step.
 
+## Why Attach-Only Failed
+
+- Adding `UiEnhancedTrackerPanelView` / `UiEnhancedTrackerWidget` introduced brand-new `__type` names.
+- Vanilla classes (e.g., `UiStatusEffectPanelView`) have corresponding compiled `.ssc` resources; our new types do not.
+- When the HUD asset holder requested `__type = "UiEnhancedTrackerPanelView"`, the loader waited for a compiled class that never arrived, stalling resource loading.
+- Trimming the `.resource` dependencies and removing `UiDataDrivenComponent` reduced noise, but the hang persisted because the core issue is the missing engine class.
+
+### Conclusion
+- Until we figure out how to create/ship compiled UI classes, stick with inline HUD definitions (no new `__type` names) or reuse existing engine views/widgets.
+- Attach-only wiring with custom types requires matching `.ssc` resources; without them, missions stay on the loading screen.
+
 ## Current State (2025-10-12)
 
-- Enhanced Tracker wiring to engine systems remains disabled while we debug, but the panel’s visuals are now inlined directly inside `ui_hud_pve_view.sso` as `childs.enhanced_ui_panel` (static tile only).
+- Enhanced Tracker now follows the attach-only pattern again, but without any data provider logic:
+  - `ui_hud_pve_view.sso` exposes `enhanced_ui_panel_attach` and maps `UiEnhancedTrackerPanelView` to it.
+  - `ui_asset_storage.sso` registers `EnhancedTrackerPanel` (`__type = "UiEnhancedTrackerPanelView"`) on the HUD layer.
+  - `ui_pve_screen.sso` instantiates `UiEnhancedTrackerWidget` with no `providerDesc`.
+  - Widget (`ui_enhanced_tracker_widget.sso`) is a bare `UiHidableWidget` pointing at `Hud.EnhancedTrackerPanel`.
 
-- No custom attach mappings / asset holders / widgets are active. `ui_asset_storage.sso` and `ui_pve_screen.sso` stay untouched from vanilla; we override only `ui_hud_pve_view.sso` to host the static container.
+- View asset `ui_enhanced_tracker_panel_view.sso` (plus `.resource`) now contains only static visuals (container + bitmaps + textfield). No `UiDataDrivenComponent` is present while we stay UI-only.
 
-- Latest `.pak` continues to ship just `ssl/ui/fusion/hud/hud_layout/ui_hud_pve_view.sso`, now containing the inline panel. Tracker-specific view/widget/provider files remain in `mods_source/` but are not packaged.
+- Latest `.pak` for this experiment must include:
+  - `ssl/ui/fusion/hud/hud_layout/ui_hud_pve_view.sso`
+  - `ssl/ui/systems/asset_managing/ui_asset_storage.sso`
+  - `ssl/ui/fusion/hud/hud_layout/code/pve/ui_pve_screen.sso`
+  - `ssl/ui/fusion/hud/enhanced_tracker/ui_enhanced_tracker_panel_view.sso`
+  - `ssl/ui/fusion/hud/enhanced_tracker/ui_enhanced_tracker_panel_view.sso.resource`
+  - `ssl/ui/fusion/hud/enhanced_tracker/ui_enhanced_tracker_widget.sso`
+  - `ssl/ui/fusion/hud/enhanced_tracker/ui_enhanced_tracker_widget.sso.resource`
 
-- Next step after validating mission stability with this static panel: experiment with lightweight data binding (e.g., manual timer text updates) before re-introducing asset holder/widget wiring.
+- Reference screenshot: `docs/screenshots/progress/2025-10-12_static_panel.png` (from the inline experiment; visuals unchanged).
 
-- Reference screenshot: `docs/screenshots/progress/2025-10-12_static_panel.png` (static tile inline over vanilla HUD).
+- Next step: validate mission load with this attach-only wiring, then wire in a lightweight binding layer or stub provider.
